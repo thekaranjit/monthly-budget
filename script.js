@@ -1,30 +1,26 @@
 function getresult() {
 
-      let yinc = document.getElementById('yearly-income').value;
+      let minc = document.getElementById('monthly-income').value;
 
-      let nincome = document.getElementById('need').value;
+      let pincome = Math.round((minc / 100) * 40) ;
 
-      let inv = document.getElementById('invest').value;
+      let inv = Math.round((minc / 100) * 20) ;
 
-      let ifix = document.getElementById('fix').value;
+      let ifix = Math.round((minc / 100) * 20) ;
+      let remaina = Math.round(pincome + inv + ifix);
 
-      let monthsal = yinc / 12;
-      let balancea = (monthsal / 100) * 40 ;
-      let balanceb = (monthsal / 100) * 20 ;
-      let balancec = (monthsal / 100) * 20 ;
-      let remaina = balancea + balanceb + balancec;
-      let finalremain = monthsal - remaina;
-      let fdata = "You should Save" + remaina ;
+      let finalremain = minc - remaina;
+
+      let fdata = "You should spend on yourself" + pincome + "You should invest " + inv + "You can have EMI's upto " + ifix + ", But you should save " + finalremain;
+
+
       document.getElementById("final").innerHTML=fdata;
       // console.log(yinc);
 }
 
 function reset() {
 
-document.getElementById('yearly-income').value="";
-document.getElementById('need').value="";
-document.getElementById('invest').value="";
-document.getElementById('fix').value="";
-document.getElementById("newres").innerHTML="Please Enter New Details";
+document.getElementById('monthly-income').value="";
+document.getElementById("final").innerHTML="";
 
 }

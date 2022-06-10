@@ -10,15 +10,11 @@
 body {
   font-family: 'Share Tech', sans-serif;
 
-      color: white;
-
-
-
-     margin: 0;
-      width: 100vw;
-      height: 100vh;
-
-      background-color: #160C1B;
+    color: white;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #160C1B;
 
 }
 
@@ -34,26 +30,12 @@ body {
 
   }
 
-  #yincome {
+  #mincome {
     color: #FFFEFB;
   }
 
-
-
-#needtext {
-  color: #FFFEFB;
-}
-
-
-
-#inv {
-  color: #FFFEFB;
-}
-
-
-
-#fixtext {
-  color: #FFFEFB;
+#monthly-income {
+  background-color: yellow;
 }
 
 
