@@ -11,10 +11,13 @@ function getresult() {
 
       let finalremain = minc - remaina;
 
-      let fdata = "You should spend on yourself" + pincome + "You should invest " + inv + "You can have EMI's upto " + ifix + ", But you should save " + finalremain;
+    // let fdata = "You should spend on yourself" + pincome + "You should invest " + inv + "You can have EMI's upto " + ifix + ", But you should save " + finalremain;
 
 
       document.getElementById("final").innerHTML=fdata;
+
+      document.getElementById('add').value =minc;
+
       // console.log(yinc);
 }
 
@@ -22,5 +25,6 @@ function reset() {
 
 document.getElementById('monthly-income').value="";
 document.getElementById("final").innerHTML="";
+document.getElementById("newres").innerHTML="Please Enter New Details";
 
 }
