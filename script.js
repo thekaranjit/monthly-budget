@@ -32,7 +32,7 @@ function getresult() {
 
 function reset() {
 
-document.getElementById("monthly-income").value="";
+document.getElementById("monthly-income").value="0";
 // document.getElementById("final").innerHTML=" ";
 document.getElementById("final1").innerHTML=" ";
 document.getElementById("final2").innerHTML=" ";
