@@ -7,6 +7,16 @@
 .cp-text{ color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);}
   */
 
+	#take-data{
+	width: 850px;
+	height: 300px;
+	border: 3px solid lightgrey;
+	margin-top:50px;;
+	padding-top: 30px;
+	}
+
+
+
 body {
 
 font-family: 'Poppins', sans-serif;
@@ -28,6 +38,11 @@ height: 100vh;
   color: #fff;
 }
 
+
+
+
+
+
  #header{
    border-style: dashed;
 
@@ -37,12 +52,14 @@ height: 100vh;
     font-size: 30px;
     text-align: center;
     text-shadow: 2px 2px #454b52;
-    padding-top: 1px;
+		margin-top:20px;
+		margin-bottom:1px;
+    padding-top: 5px;
     padding-right: 50px;
-    padding-bottom: 1px;
+    padding-bottom: 5px;
     padding-left:50px;
     text-align: center;
-    margin:10px auto;
+
   }
 
 
@@ -69,7 +86,27 @@ background-color: #160C1B;
 
  */
 
+#mincome{
+text-align: center;
+}
 
+
+#allbuttons {
+	margin-top: 20px;
+
+}
+
+#allbuttons1 {
+position: absolute;
+
+left: 30%;
+}
+
+#allbuttons2 {
+position: absolute;
+right: 30%;
+left: 70%;
+}
 
 
 *,
@@ -104,8 +141,15 @@ background-color: #160C1B;
 }
 
 
+#final{
+	word-wrap: break-word;
+	margin-top: 50px;
+}
 
 
+#fresult{
+	padding-top: 50px;
+}
 
 
 

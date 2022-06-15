@@ -8,6 +8,7 @@
     <script type="text/javascript" language="javascript" src="script.js"></script>
 
 
+
   </head>
   <body>
 
@@ -23,16 +24,33 @@
 
 	<h4 id="mincome">Your Monthly Income after deduction.</h4>
 	<input id="monthly-income" placeholder="Monthly income please" type="number"/>
-  <input id="add" placeholder="Monthly" type="number"/>
+  <!-- IDEA: <input id="add" placeholder="Monthly" type="number"/>   -->
 
 
-  <button id="butt" onclick= "getresult()">Generate Budget</button>
+        <div id="allbuttons">
 
-  <button id="res" onclick= "reset()">Reset</button>
+          <div id="allbuttons1">
 
-  <div id="newres"></div>
-  <div id="final"></div>
+            <button id="butt" onclick= "getresult()">Generate Budget</button>
 
+          </div>
+
+          <div id="allbuttons2">
+
+            <button id="res" onclick= "reset()">Reset</button>
+
+          </div>
+
+        </div>
+
+        <div id="fresult">
+
+          <div id="newres"></div>
+          <div id="final1"></div>
+          <div id="final2"></div>
+          <div id="final3"></div>
+          <div id="final4"></div>
+         </div>
 
 </div>
 
